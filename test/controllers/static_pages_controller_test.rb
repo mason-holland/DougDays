@@ -25,4 +25,10 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     get static_pages_help_url
     assert_response :success
   end
+
+  test "shoudld get feedback" do
+    get static_pages_feedback_url
+    assert_response :success
+  end
+
 end

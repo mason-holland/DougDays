@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'static_pages/contact'
   get 'static_pages/help'
   get 'static_pages/team'
+  get 'static_pages/feedback'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
