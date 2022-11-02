@@ -1,30 +1,27 @@
-<html>
-    <head>
-        <title> Home | Group Rails Application </title>
-    </head>
+<%provide(:title, "Home")%>
+<!DOCTYPE html>
 
-    <body>
-        <h1>
-            Home
-        </h1>
+<title><%= yield(:title) %> | Group Rails Application </title>
 
-        <p>
-            Author of page: Iona Tramelli
-        </p>
+<h1>
+    Home
+</h1>
 
-        <p>
-            Welcome to the home page! Here, you will find a link to the taylor website
-            as we are all students there. For those who are students, you will find a 
-            link to the portal that that we use. I hope you enjoy the start of a group 
-            project, though a bit rudimentary at the moment.
-        </p>
+<p>
+    Author of page: Iona Tramelli
+</p>
 
-        <p>
-            <a href="https://taylor.edu/">Taylor homepage</a>
-        </p>
+<p>
+    Welcome to the home page! Here, you will find a link to the taylor website
+    as we are all students there. For those who are students, you will find a 
+    link to the portal that that we use. I hope you enjoy the start of a group 
+    project, though a bit rudimentary at the moment.
+</p>
 
-        <p>
-            <a href="https://my.taylor.edu/">Taylor student portal</a>
-        </p>
-    </body>
-</html>
+<p>
+    <a href="https://taylor.edu/">Taylor homepage</a>
+</p>
+
+<p>
+    <a href="https://my.taylor.edu/">Taylor student portal</a>
+</p>
