@@ -1,6 +1,10 @@
 require "test_helper"
 
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
+  def setup
+    @basic_title = "Group Rails Application"
+  end
+
   test "should get team" do
     get static_pages_team_url
     assert_response :success
